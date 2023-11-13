@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="autores" content="Jean Carlos de Castro e Silva & Milena Pereira de Carvalho">
+        <title>✉️ Contatos</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Figtree&display=swap" rel="stylesheet">
+    </head>
+    <body>        
+        <header>
+            <div id="header-container">
+                <a href="/index.html">
+                    <img id="header-logo" src="imagens/logo-prazer-em-sabores.png" alt="Logo 'Prazer em Sabores, receitas gastronômicas'">
+                </a>
+                <div class="header-menu">   
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="/index.html">Início</a>
+                            </li>
+                            <li>
+                                <a href="/receitas-salgadas.html">Receitas Salgadas</a>
+                            </li>
+                            <li>
+                                <a href="/receitas-doces.html">Receitas Doces</a>
+                            </li>
+                            <li>
+                                <a href="/receitas-de-caldos-e-sopas.html">Receitas de Caldos & Sopas</a>
+                            </li>
+                            <li>
+                                <a href="/contatos.html">Contatos</a>
+                            </li>
+                        </ul>
+                    </nav>         
+                </div>
+            </div>
+                <hr class="principal-linha-divisao"> 
+        </header><br><br>       
+        <main>
+            <br>
+            <div class="container-formulario">
+                <h1 class="titulo-categoria" id="fale-conosco">✉️ Fale conosco</h1>
+                <form class="formulario">                
+                    <div>
+                        <label>Nome completo:</label><br>
+                        <input type="text" name="nome" id="nome" autofocus placeholder="João Silva">
+                    </div>  
+                    <div>
+                        <label>E-mail:</label><br>
+                        <input type="email" name="email" id="email" placeholder="ex.: joao@email.com.br">
+                    </div>
+                    <div>
+                        <label>Telefone:</label><br>
+                        <input type="tel" name="ddd" id="ddd" placeholder="27" maxlength="2"> <input type="tel" name="tel" id="tel" placeholder="99999-9999" maxlength="10">
+                    </div>
+                    <div>
+                        <label>Como podemos ajudar?</label><br>
+                        <textarea id="ajuda" placeholder="Nos conte o motivo do contato..."></textarea>
+                    </div>               
+                    <div>                
+                        <input type="submit" name="submit" id="submit" value="Enviar"> <input type="reset" name="reset" id="reset" value="Limpar dados">
+                    </div>               
+                </form><br><br>
+            </div>
+            <div class="contatos">
+                <p id="contato-email">E-mail:</p>
+                <p>jeanccastro@gmail.com</p>
+                <p>milenapdec@gmail.com</p>
+            </div><br><br>
+        </main>
+        <footer>
+            <hr class="principal-linha-divisao"> 
+            <div class="footer-info">
+                <div id="footer-direitos"> Copyright © 2023 ~ TODOS OS DIREITOS RESERVADOS</div><br>
+                <div id="footer-desenvolvimento"><strong>Blog</strong> desenvolvido por Jean Carlos de Castro e Silva & Milena Pereira de Carvalho</div>
+            </div>
+        </footer>
+        
+    </body>
+</html>

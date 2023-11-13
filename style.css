@@ -1,0 +1,370 @@
+body {
+    background-color: #F8F8FB;
+    font-family: 'Figtree', sans-serif;
+    color: #4B4B4B;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-logo {
+    width: auto;
+    height: 150px;
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+#header-container {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    background-color: #F2F2F8;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: -25px;   
+}
+
+.header-menu {
+    width: 100%;
+}
+
+.header-menu ul {
+    list-style-type: none;    
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
+}
+
+.header-menu li {       
+    padding: 8vh;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal-linha-divisao {
+    border: 1px solid #daa520;
+    margin: 0px -25px;
+}
+
+.linha-divisao {
+    border: 1px solid #daa520;
+    width: 500px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #416743;
+}
+
+h3, h4 {
+    text-align: left;
+    padding-left: px;
+    font-style: bold;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 2em;
+    font-size: 18px;
+}
+
+.header-menu a {
+    color: #daa520;
+    text-decoration: none;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.header-menu a:hover {
+    color: #DE0000;
+    text-decoration: underline;
+}
+
+#boas-vindas-blog {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#descricao-blog {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.titulo-destaques {
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px; 
+}
+
+.footer-info {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: gray;
+    background-color: #F2F2F8;
+    margin-bottom: -25px;
+    margin-left: -25px;
+    margin-right: -25px;
+    font-size: 14px;    
+}
+
+#icone-coracao {
+    color: #CC0000;
+}
+
+#icone-seta {
+    color: #daa520;
+}
+
+.container-receita {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 35px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #F2F2F8;
+}
+
+.titulo-categoria {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: -25px;
+    padding: 5px;
+    text-align: left;
+}
+
+.titulo-receita {
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 6%;
+    padding-right: 6%;
+    color: #BE901C;
+}
+
+.subtitulo-receita {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;    
+}
+
+.descricao-receita {
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.detalhes-receita {
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+.foto-receita {
+    width: 85%;
+    height: auto;
+    border: 5px solid #daa520;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+#tags {
+    font-style: italic;
+    color: #daa520;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.inicio-destaques {
+    background-color: #F2F2F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    display: grid;   
+    gap: 1vh;    
+    width: 140vh;
+    height:100%;
+    margin-top: 2%;
+    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;   
+    grid-template-areas:    
+    'coracao coracao coracao'    
+    'destaque-1 destaque-1 destaque-2'
+    'destaque-1 destaque-1 destaque-3'      
+}
+
+#destaque-1 {
+    grid-area: destaque-1;
+    width: 85vh;
+    height: 80vh;  
+    margin-left: auto;
+    margin-right: auto;        
+}
+
+#destaque-2 {
+    grid-area: destaque-2;
+    width: 40vh;
+    height: 38vh;
+}
+
+#destaque-3 {
+    grid-area: destaque-3;
+    width: 40vh;
+    height: 38vh;
+}
+
+#icone-coracao {
+    grid-area:coracao;
+    margin-left: 5vh;
+}
+
+.img-destaque-1 {
+    width: 85vh;
+    height: 67vh;    
+}
+
+.img-destaque-2 {
+    width: 40vh;
+    height: 26vh;    
+}
+
+.img-destaque-3 { 
+    width: 40vh;
+    height: 26vh;    
+}
+
+.img-destaque-1:hover {  
+    border: 3px solid #daa520;
+    transition: 0.1s
+}
+
+.img-destaque-2:hover {    
+    border: 3px solid #daa520;
+    transition: 0.1s
+}
+
+.img-destaque-3:hover {   
+    border: 3px solid #daa520;
+    transition: 0.1s
+}
+
+.container-formulario {
+    width: 70vh;    
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+#fale-conosco {
+    margin-left: auto;
+    width: 70vh;
+    height: 3vh;
+}
+
+.formulario {
+    background-color: #F2F2F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 70vh;
+    height: 83vh;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.formulario div {
+    margin: 5vh;
+    margin-left: 10vh;
+}
+
+.formulario label {
+    display: flex;      
+    color: #416743;
+    font-size: 15px;
+    font-weight: bold;    
+}
+
+.formulario input {
+    width: 40vh;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 2vh;    
+}
+
+#ddd {
+    width: 2.5vh;
+    text-align: center;    
+}
+
+#tel {
+    width: 10vh;
+    text-align: center;
+}
+
+#ajuda {
+    width: 50vh;
+    height: 20vh;
+    overflow: auto;
+    resize: none;  
+    border-radius: 5px;     
+}
+
+#submit {
+    background-color: #416743;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: bold;    
+    width: 20vh;
+    height: 5vh;
+    border-radius: 15px;
+}
+
+#reset {
+    background-color: #416743;    
+    color: #ffff;
+    font-size: 15px;
+    font-weight: bold;    
+    height: 5vh;
+    width: 20vh;
+    border-radius: 15px; 
+}
+
+.contatos {
+    background-color: #F2F2F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 70vh;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#contato-email {
+    color: #BE901C;  
+    font-weight: bold; 
+    font-size: 20px;
+}
